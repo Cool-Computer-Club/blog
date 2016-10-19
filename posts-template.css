@@ -76,7 +76,7 @@ time {
   margin-bottom: 40px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 600px){
   .mediaquery1 {
     width: 100%;
     margin: auto;
@@ -88,5 +88,12 @@ time {
     box-sizing: border-box;
     margin: 0.4em;
 
+  }
+}
+
+@media (min-width: 900px){
+  .mediaquery1 {
+    width: 70%;
+    margin-left: 10px;
   }
 }
