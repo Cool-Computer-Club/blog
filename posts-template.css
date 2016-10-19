@@ -96,4 +96,10 @@ time {
     width: 70%;
     margin-left: 10px;
   }
+
+  .bio {
+    position: fixed;
+    top: 200px;
+    right: 10px;
+  }
 }
