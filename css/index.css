@@ -32,6 +32,10 @@
   color: black;
 }
 
+.dropdown {
+  display: none;
+}
+
 .maincontent {
   width: 100%;
   margin: auto;
