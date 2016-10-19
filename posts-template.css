@@ -2,6 +2,29 @@ body {
   font-family: arial;
   text-align: center;
 }
+
+.navbar {
+  width: 100%;
+  max-width: 600px;
+  font-family: futura;
+  text-align: center;
+  background-color: #B2DBBF;
+  border-radius: 5px;
+  margin: 0px auto;
+  padding: 6px 0px
+}
+
+.navbar__liitem {
+  font-size: 20px;
+  display: inline;
+  padding: 0px 1%;
+  color: black;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
 section {
   width: 80%;
   margin: 0 auto;
