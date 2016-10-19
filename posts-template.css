@@ -1,0 +1,21 @@
+body {
+  font-family: arial;
+  text-align: center;
+}
+section {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1, h2{
+  font-family: futura, sans-serif;
+}
+
+p {
+  text-align: left;
+}
+
+img {
+  width: 100%;
+}
