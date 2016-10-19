@@ -55,6 +55,7 @@
   text-align: center;
   font-family: futura;
   border-radius: 2px;
+  padding-bottom: 40px;
 }
 .maincontent__photoholder{
   display: block;
@@ -72,6 +73,10 @@
   .maincontent_photosub1{
     width: 80%;
     margin:auto;
+  }
+
+  .maincontent__about {
+    padding-bottom: 80px;
   }
 
 }
