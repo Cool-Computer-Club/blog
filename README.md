@@ -31,3 +31,4 @@ a blog page for each individual in the team (Cleo & Jen)
 * Some way of filtering blog posts (by date, content, author).
 * Highlight name of author.
 * Animation
+* Full Length Article pages (permalinks)
