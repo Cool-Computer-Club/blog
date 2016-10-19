@@ -2,6 +2,7 @@
   width: 100%;
   text-align: center;
   font-family: futura;
+  margin: 0px auto;
 }
 
 .header__maintitle {
@@ -10,18 +11,19 @@
 
 .navbar {
   width: 100%;
+  max-width: 600px;
   font-family: futura;
   text-align: center;
   background-color: rgb(128, 212, 223);
   border-radius: 5px;
-  height: 30px
-  margin: 10px auto;
+  margin: 0px auto;
+  padding: 6px 0px
 }
 
 .navbar__liitem {
+  font-size: 20px;
   display: inline;
-  margin: 10px 0px;
-  padding: 10px 1%;
+  padding: 0px 1%;
 }
 
 .maincontent {
@@ -34,6 +36,7 @@
   display: block;
   margin: auto;
   width: 80%;
+  max-width: 500px;
   border-radius: 50%;
   border: solid pink 2px
 }
