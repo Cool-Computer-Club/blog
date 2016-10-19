@@ -64,8 +64,8 @@
 }
 @media (min-width: 600px) {
   .maincontent__photoholder{
-    display: inline-block;
     width: 50%;
+    display: inline-block;
     box-sizing: border-box;
     padding: 2em;
     float: left;
