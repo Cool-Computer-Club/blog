@@ -31,6 +31,25 @@ section {
   text-align: center;
 }
 
+a {
+  color: #70C1B3;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #B2DBBF;
+}
+
+a:hover {
+  color: #247BA0;
+}
+
+.articlesummary {
+  border-bottom: solid #247BA0 2px;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
 h1, h2{
   font-family: futura, sans-serif;
 }
@@ -41,4 +60,9 @@ p {
 
 img {
   width: 100%;
+}
+
+time {
+  font-style: italic;
+  font-size: 0.9rem; 
 }
