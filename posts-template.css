@@ -56,6 +56,7 @@ h1, h2{
 
 p {
   text-align: left;
+  font-size: 18px;
 }
 
 img {
@@ -73,4 +74,19 @@ time {
 
 .bio {
   margin-bottom: 40px;
+}
+
+@media (min-width: 600px) {
+  .mediaquery1 {
+    width: 100%;
+    margin: auto;
+  }
+
+  .articlesummary {
+    width: 45%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 0.4em;
+
+  }
 }
