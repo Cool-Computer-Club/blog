@@ -7,11 +7,11 @@
 
 .header__maintitle {
   font-size: 55px;
-  color: #70C1B3;
+  color: rgb(56, 66, 78);
 }
 
 .header__subtitle {
-  color: #B2DBBF;
+  color: rgb(43, 51, 60);
 }
 
 .navbar {
@@ -19,7 +19,7 @@
   max-width: 600px;
   font-family: futura;
   text-align: center;
-  background-color: #FF1654;
+  background-color: #B2DBBF;
   border-radius: 5px;
   margin: 0px auto;
   padding: 6px 0px
@@ -29,7 +29,7 @@
   font-size: 20px;
   display: inline;
   padding: 0px 1%;
-  color: white;
+  color: black;
 }
 
 .maincontent {
@@ -50,10 +50,8 @@
 .maincontent__about {
   margin: 20px auto;
   width: 60%;
-  border: solid #70C1B3 2px;
+  border-bottom: solid #F3FFBD 6px;
   text-align: center;
   font-family: futura;
   border-radius: 2px;
-  height: 80px;
-
 }
