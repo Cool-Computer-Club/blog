@@ -1,0 +1,50 @@
+.header {
+  width: 100%;
+  text-align: center;
+  font-family: futura;
+}
+
+.header__maintitle {
+  font-size: 55px;
+}
+
+.navbar {
+  width: 100%;
+  font-family: futura;
+  text-align: center;
+  background-color: rgb(128, 212, 223);
+  border-radius: 5px;
+  height: 30px
+  margin: 10px auto;
+}
+
+.navbar__liitem {
+  display: inline;
+  margin: 10px 0px;
+  padding: 10px 1%;
+}
+
+.maincontent {
+  width: 100%;
+  margin: auto;
+
+}
+
+.maincontent__picture {
+  display: block;
+  margin: auto;
+  width: 80%;
+  border-radius: 50%;
+  border: solid pink 2px
+}
+
+.maincontent__about {
+  margin: 20px auto;
+  width: 60%;
+  border: solid pink 2px;
+  text-align: center;
+  font-family: futura;
+  border-radius: 2px;
+  height: 80px;
+
+}
