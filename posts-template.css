@@ -73,7 +73,15 @@ time {
 }
 
 .bio {
-  margin-bottom: 40px;
+  margin: 20px auto 40px auto;
+  max-width: 80%;
+}
+
+.bio img {
+  display: block;
+  margin: auto;
+  width: 200px;
+  border-radius: 50%;
 }
 
 @media (min-width: 600px){
@@ -87,19 +95,27 @@ time {
     display: inline-block;
     box-sizing: border-box;
     margin: 0.4em;
+  }
 
+  .bio {
+    width: 60%;
   }
 }
 
 @media (min-width: 900px){
   .mediaquery1 {
-    width: 70%;
+    width: 75%;
     margin-left: 10px;
   }
 
   .bio {
     position: fixed;
     top: 200px;
-    right: 10px;
+    right: 0px;
+    max-width: 200px;
+    background-color: #247BA0;
+    color: white;
+    padding: 25px;
+    border-radius: 5px 0px 0px 5px;
   }
 }
