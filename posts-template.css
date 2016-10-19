@@ -62,7 +62,15 @@ img {
   width: 100%;
 }
 
+i {
+  padding: 0px 5px 0px 10px;
+}
+
 time {
   font-style: italic;
-  font-size: 0.9rem; 
+  font-size: 0.9rem;
+}
+
+.bio {
+  margin-bottom: 40px;
 }
