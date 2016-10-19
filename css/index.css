@@ -41,17 +41,34 @@
 .maincontent__picture {
   display: block;
   margin: auto;
-  width: 80%;
+  width: 100%;
   max-width: 500px;
   border-radius: 50%;
   border: solid #70C1B3 2px
 }
 
 .maincontent__about {
+  display: block;
   margin: 20px auto;
-  width: 60%;
+  max-width: 400px;
   border-bottom: solid #F3FFBD 6px;
   text-align: center;
   font-family: futura;
   border-radius: 2px;
+}
+.maincontent__photoholder{
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+@media (min-width: 600px) {
+  .maincontent__photoholder{
+    display: inline-block;
+    width: 40%;
+  }
+  .maincontent_photosub1{
+    width: 80%;
+    margin:auto;
+  }
+
 }
