@@ -21,3 +21,13 @@ Using pair programming to build the following in HTML, CSS and JavaScript:
 a very visual landing page (Esraa & John)
 a blog page for each individual in the team (Cleo & Jen)
 (These pairs will swap half way through the first day)
+
+## Project Plan
+* Create a landing page with Navbar, author profiles and images, these are links to individual blog pages and social media.
+* Navbar contains links to about page and contact page.
+* Create blog/profile pages for each member.
+
+### Stretch Goals
+* Some way of filtering blog posts (by date, content, author).
+* Highlight name of author.
+* Animation
