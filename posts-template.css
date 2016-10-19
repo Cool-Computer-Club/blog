@@ -1,12 +1,14 @@
 body {
-  font-family: arial;
+  font-family: 'Source Sans Pro', arial;
+  font-weight: bold;
   text-align: center;
 }
 
 .navbar {
   width: 100%;
   max-width: 600px;
-  font-family: futura;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bolder;
   text-align: center;
   background-color: #B2DBBF;
   border-radius: 5px;
@@ -22,6 +24,7 @@ body {
 }
 
 h1 {
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 3.5rem;
 }
 
@@ -51,7 +54,7 @@ a:hover {
 }
 
 h1, h2{
-  font-family: futura, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 p {
