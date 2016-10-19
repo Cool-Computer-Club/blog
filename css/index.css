@@ -64,7 +64,10 @@
 @media (min-width: 600px) {
   .maincontent__photoholder{
     display: inline-block;
-    width: 40%;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 2em;
+    float: left;
   }
   .maincontent_photosub1{
     width: 80%;
