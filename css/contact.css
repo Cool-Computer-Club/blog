@@ -7,46 +7,92 @@ body {
   margin:auto;
 }
 input {
-
   display: block;
   margin: 10px auto;
-  width: 100%;
+  width: 70%;
+  max-width:300px;
   font-family: sans-serif;
   font-size: 18px;
-  border-radius: 2px;
+  border-radius: 5px;
   border: solid grey 2px;
   padding: 5px;
 }
-
-.maininput {
-  height: 80px;
+textarea{
+  display: block;
+  margin: 10px auto;
+  width: 70%;
+  max-width:300px;
+  font-family: sans-serif;
+  font-size: 18px;
+  border-radius: 5px;
+  height: 120px;
+  border: solid grey 2px;
+  padding: 5px;
 }
+.subutton{
+  max-width: 312px;
+  width:75%;
+  height:50px;
+}
+.maininput {
+  height: 120px;
+
+}
+
+/*
+  This is where the navbar stuff starts
+*/
 
 .navbar {
-  width: 100%;
-  max-width: 600px;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: bolder;
-  text-align: center;
   background-color: #B2DBBF;
-  border-radius: 5px;
-  margin: 0 auto;
-  padding: 6px 0;
+  margin: -0.5rem 0;
+  padding: 0.9rem 0;
+  color: white;
 }
+
+#author-menu:hover .dropdown {
+  z-index:1;
+  opacity:1;
+}
+
+
+.dropdown {
+    position: absolute;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    background-color: #B2DBBF
+}
+
+
+ul {
+  text-align: center;
+  border-radius: 5px;
+  padding: 6px 0px;
+  list-style: none;
+  margin: auto;
+}
+
+.navbar__liitem {
+  font-size: 20px;
+  display: inline-block;
+  padding: 0px 1%;
+}
+.subnavbar__liitem {
+  padding: 10px 10px;
+}
+
+/*
+  This is where the navbar stuff ends
+*/
+
 .aboutpage{
 max-width: 650px;
 }
 .aboutpara{
   text-align: center;
-
 }
 
-.navbar__liitem {
-  font-size: 20px;
-  display: inline;
-  padding: 0 1%;
-  color: black;
-}
 
 h1 {
   font-family: 'Source Sans Pro', sans-serif;
