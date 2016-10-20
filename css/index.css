@@ -14,9 +14,13 @@
   color: rgb(43, 51, 60);
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 .navbar {
-  font-family: futura;
-  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
   background-color: #B2DBBF;
   margin: -0.5rem 0;
   padding: 1rem 0;
@@ -25,8 +29,8 @@
 .navbar__liitem {
   font-size: 20px;
   display: inline;
-  padding: 0px 1%;
-  color: black;
+  padding: 0px 2%;
+  color: white;
 }
 .subnavbar__liitem {
   font-size: 20px;
