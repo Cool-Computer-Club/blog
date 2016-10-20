@@ -20,7 +20,6 @@ body {
   opacity:1;
 }
 
-
 .dropdown {
     position: absolute;
     z-index:-1;
@@ -28,7 +27,6 @@ body {
     transition:opacity linear 0.15s;
     background-color: #B2DBBF
 }
-
 
 ul {
   text-align: center;
@@ -43,6 +41,7 @@ ul {
   display: inline-block;
   padding: 0px 1%;
 }
+
 .subnavbar__liitem {
   padding: 10px 10px;
 }
