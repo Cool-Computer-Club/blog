@@ -9,6 +9,10 @@ body {
   margin: 0px auto;
 }
 
+h2 {
+  text-align: center;
+}
+
 .header__maintitle {
   font-size: 1.8rem;
   padding-top: 1rem;
@@ -63,9 +67,8 @@ ul {
   display: block;
   margin: auto;
   width: 100%;
-  max-width: 500px;
+  max-width: 9rem;
   border-radius: 50%;
-  border: solid #70C1B3 2px
 }
 
 .maincontent__about {
@@ -74,7 +77,6 @@ ul {
   max-width: 400px;
   border-bottom: solid #F3FFBD 6px;
   text-align: center;
-  font-family: futura;
   border-radius: 2px;
   padding-bottom: 40px;
 }
