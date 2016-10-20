@@ -1,13 +1,19 @@
+body {
+  font-family:'Source Sans Pro', sans-serif;
+  font-weight: bold;
+}
+
 .header {
   width: 100%;
   text-align: center;
-  font-family: futura;
   margin: 0px auto;
 }
 
 .header__maintitle {
-  font-size: 55px;
+  font-size: 1.8rem;
+  padding-top: 1rem;
   color: rgb(56, 66, 78);
+  font-family: 'Press Start 2P', sans-serif;
 }
 
 .header__subtitle {
@@ -20,7 +26,6 @@ a {
 }
 
 .navbar {
-  font-family: 'Source Sans Pro', sans-serif;
   background-color: #B2DBBF;
   margin: -0.5rem 0;
   padding: 1rem 0;
@@ -79,6 +84,12 @@ ul {
   width: 80%;
 }
 @media (min-width: 600px) {
+  .header__maintitle {
+    font-size: 3.5rem;
+    line-height: 4.8rem;
+    padding: 1rem 17rem;
+  }
+
   .maincontent__photoholder{
     width: 50%;
     display: inline-block;
