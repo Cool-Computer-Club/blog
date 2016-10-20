@@ -26,14 +26,19 @@ a {
   padding: 1rem 0;
 }
 
+ul {
+  text-align: center;
+  padding-left: 0rem;
+  font-size: 15px;
+}
+
 .navbar__liitem {
-  font-size: 20px;
   display: inline;
   padding: 0px 2%;
   color: white;
 }
 .subnavbar__liitem {
-  font-size: 20px;
+  font-size: 15px;
   color: black;
   display:block;
 }
@@ -90,4 +95,9 @@ a {
     padding-bottom: 80px;
   }
 
+  ul {
+    text-align:left;
+    font-size: 20px;
+    padding-left: 1.5rem;
+  }
 }
