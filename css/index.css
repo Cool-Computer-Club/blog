@@ -15,14 +15,11 @@
 }
 
 .navbar {
-  width: 100%;
-  max-width: 600px;
   font-family: futura;
   text-align: center;
   background-color: #B2DBBF;
-  border-radius: 5px;
-  margin: 0px auto;
-  padding: 6px 0px
+  margin: -0.5rem 0;
+  padding: 1rem 0;
 }
 
 .navbar__liitem {
