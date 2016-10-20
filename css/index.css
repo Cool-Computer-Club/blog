@@ -31,18 +31,6 @@
   padding: 0px 1%;
   color: black;
 }
-.subnavbar__liitem {
-  font-size: 20px;
-  color: black;
-  display:block;
-}
-
-
-.dropdown {
-  display: none;
-  position:absolute;
-}
-
 .maincontent {
   width: 100%;
   margin: auto;
@@ -55,7 +43,7 @@
   width: 100%;
   max-width: 500px;
   border-radius: 50%;
-  border: solid #70C1B3 2px
+  border: solid #70C1B3 2px;
 }
 
 .maincontent__about {
@@ -75,8 +63,8 @@
 }
 @media (min-width: 600px) {
   .maincontent__photoholder{
-    width: 50%;
     display: inline-block;
+    width: 50%;
     box-sizing: border-box;
     padding: 2em;
     float: left;
