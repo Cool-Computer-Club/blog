@@ -106,7 +106,7 @@ section {
 }
 
 a {
-  color: #70C1B3;
+  color: inherit;
   text-decoration: none;
 }
 
