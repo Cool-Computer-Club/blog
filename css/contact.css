@@ -85,17 +85,15 @@ ul {
   This is where the navbar stuff ends
 */
 
+.header {
+  font-size: 3.5rem;
+}
+
 .aboutpage{
 max-width: 650px;
 }
 .aboutpara{
   text-align: center;
-}
-
-
-h1 {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 3.5rem;
 }
 
 section {

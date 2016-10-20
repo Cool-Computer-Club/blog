@@ -52,8 +52,7 @@ ul {
   This is where the navbar stuff ends
 */
 
-h1 {
-  font-family: 'Source Sans Pro', sans-serif;
+.header {
   font-size: 3.5rem;
 }
 
@@ -76,10 +75,6 @@ a:hover {
   border-bottom: solid #247BA0 2px;
   padding-bottom: 1rem;
   margin-bottom: 2rem;
-}
-
-h1, h2{
-  font-family: 'Source Sans Pro', sans-serif;
 }
 
 h2 {
