@@ -20,8 +20,11 @@ h2 {
 }
 
 a {
-  color: white;
   text-decoration: none;
+}
+
+a:visited {
+  color:inherit;
 }
 
 /*
@@ -32,6 +35,7 @@ a {
   background-color: #B2DBBF;
   margin: -0.5rem 0;
   padding: 0.9rem 0;
+  color: white;
 }
 
 #author-menu:hover .dropdown {
@@ -63,7 +67,6 @@ ul {
   padding: 0px 1%;
 }
 .subnavbar__liitem {
-  color: white;
   padding: 10px 10px;
 }
 
@@ -99,6 +102,7 @@ ul {
   margin: auto;
   width: 80%;
 }
+
 @media (min-width: 600px) {
   .header__maintitle {
     font-size: 2rem;
