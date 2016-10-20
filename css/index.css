@@ -23,6 +23,10 @@ a {
   text-decoration: none;
 }
 
+/*
+  This is where the navbar stuff starts
+*/
+
 .navbar {
   background-color: #B2DBBF;
   margin: -0.5rem 0;
@@ -30,7 +34,6 @@ a {
   display: block;
   clear: both;
 }
-
 
 #author-menu:hover .dropdown {
   z-index:1;
@@ -63,6 +66,12 @@ ul {
   color: white;
   padding: 10px 10px;
 }
+
+/*
+  This is where the navbar stuff ends
+*/
+
+
 .maincontent {
   width: 100%;
   margin: auto;
