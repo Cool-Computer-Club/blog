@@ -1,11 +1,9 @@
 body {
-
-  font-family: 'Source Sans Pro', arial;
+  font-family:'Source Sans Pro', arial, sans-serif;
   font-weight: bold;
   text-align: center;
-  width:80%;
-  margin:auto;
 }
+
 input {
   display: block;
   margin: 10px auto;
@@ -17,6 +15,7 @@ input {
   border: solid grey 2px;
   padding: 5px;
 }
+
 textarea{
   display: block;
   margin: 10px auto;
@@ -28,15 +27,6 @@ textarea{
   height: 120px;
   border: solid grey 2px;
   padding: 5px;
-}
-.subutton{
-  max-width: 312px;
-  width:75%;
-  height:50px;
-}
-.maininput {
-  height: 120px;
-
 }
 
 /*
@@ -55,15 +45,13 @@ textarea{
   opacity:1;
 }
 
-
 .dropdown {
     position: absolute;
     z-index:-1;
     opacity:0;
     transition:opacity linear 0.15s;
-    background-color: #B2DBBF
+    background-color: #B2DBBF;
 }
-
 
 ul {
   text-align: center;
@@ -78,6 +66,7 @@ ul {
   display: inline-block;
   padding: 0px 1%;
 }
+
 .subnavbar__liitem {
   padding: 10px 10px;
 }
@@ -86,23 +75,16 @@ ul {
   This is where the navbar stuff ends
 */
 
-.aboutpage{
-max-width: 650px;
-}
-.aboutpara{
-  text-align: center;
-}
-
-
-h1 {
-  font-family: 'Source Sans Pro', sans-serif;
+.header {
   font-size: 3.5rem;
 }
 
-section {
-  width: 80%;
-  margin: 0 auto;
-  text-align: center;
+.aboutpage{
+max-width: 650px;
+}
+
+.maininput {
+  height: 120px;
 }
 
 a {
@@ -110,86 +92,6 @@ a {
   text-decoration: none;
 }
 
-
 a:hover {
   color: #247BA0;
-}
-
-.articlesummary {
-  border-bottom: solid #247BA0 2px;
-  padding-bottom: 1rem;
-  margin-bottom: 2rem;
-}
-
-h2{
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
-p {
-  text-align: center;
-  font-size: 18px;
-}
-
-img {
-  width: 100%;
-}
-
-i {
-  padding: 0 5px 0 10px;
-}
-
-time {
-  font-style: italic;
-  font-size: 0.9rem;
-}
-
-.bio {
-  margin: 20px auto 40px auto;
-  max-width: 80%;
-}
-
-.bio img {
-  display: block;
-  margin: auto;
-  width: 200px;
-  border-radius: 50%;
-}
-
-@media (min-width: 600px){
-  .mediaquery1 {
-    width: 100%;
-    margin: auto;
-  }
-
-  .articlesummary {
-    width: 45%;
-    display: inline-block;
-    box-sizing: border-box;
-    margin: 0.4em;
-  }
-
-  .bio {
-    width: 60%;
-  }
-}
-
-@media (min-width: 900px){
-  .mediaquery1 {
-    width: 75%;
-    margin-left: 10px;
-  }
-
-  .bio {
-    position: fixed;
-    top: 200px;
-    right: 0;
-    max-width: 200px;
-    background-color: #247BA0;
-    color: white;
-    padding: 25px;
-    border-radius: 5px 0 0 5px;
-  }
-  .bio a:hover {
-    color: white;
-  }
 }
