@@ -14,7 +14,6 @@ h2 {
 
 .header__maintitle {
   font-size: 1.8rem;
-  padding-top: 1rem;
   color: rgb(56, 66, 78);
   font-family: 'Press Start 2P', sans-serif;
 }
@@ -32,24 +31,16 @@ a {
 
 ul {
   text-align: center;
-  padding-left: 0rem;
-  font-size: 15px;
+  border-radius: 5px;
+  margin: 0px auto;
+  padding: 6px 0px
 }
 
 .navbar__liitem {
+  font-size: 20px;
   display: inline;
-  padding: 0px 2%;
-  color: white;
-}
-.subnavbar__liitem {
-  font-size: 15px;
+  padding: 0px 1%;
   color: black;
-  display:block;
-}
-
-.dropdown {
-  display: none;
-  position:absolute;
 }
 
 .maincontent {
