@@ -23,25 +23,53 @@ a {
   text-decoration: none;
 }
 
+/*
+  This is where the navbar stuff starts
+*/
+
 .navbar {
   background-color: #B2DBBF;
   margin: -0.5rem 0;
   padding: 0.9rem 0;
 }
 
+#author-menu:hover .dropdown {
+  z-index:1;
+  opacity:1;
+}
+
+
+.dropdown {
+    position: absolute;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    background-color: #B2DBBF
+}
+
+
 ul {
   text-align: center;
   border-radius: 5px;
-  margin: 0px auto;
-  padding: 6px 0px
+  padding: 6px 0px;
+  list-style: none;
 }
 
 .navbar__liitem {
   font-size: 20px;
-  display: inline;
+  display: inline-block;
   padding: 0px 1%;
-  color: black;
 }
+.subnavbar__liitem {
+  color: white;
+  padding: 10px 10px;
+}
+
+/*
+  This is where the navbar stuff ends
+*/
+
+
 .maincontent {
   width: 100%;
   margin: auto;
