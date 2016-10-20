@@ -60,10 +60,6 @@ a {
   text-decoration: none;
 }
 
-a:visited {
-  color: #B2DBBF;
-}
-
 a:hover {
   color: #247BA0;
 }

@@ -24,6 +24,11 @@ a {
   color: inherit;
 }
 
+a:hover {
+  color: #247BA0;
+}
+
+
 /*
   This is where the navbar stuff starts
 */
