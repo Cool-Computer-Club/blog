@@ -3,7 +3,6 @@ body {
   font-family: 'Source Sans Pro', arial;
   font-weight: bold;
   text-align: center;
-  width:80%;
   margin:auto;
 }
 input {
@@ -45,7 +44,7 @@ textarea{
 
 .navbar {
   background-color: #B2DBBF;
-  margin: -0.5rem 0;
+  
   padding: 0.9rem 0;
   color: white;
 }
