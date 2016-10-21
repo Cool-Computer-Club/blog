@@ -34,7 +34,7 @@ textarea{
 */
 
 .navbar {
-  background-color: #B2DBBF;
+  background-color: #247BA0;
 
   padding: 0.9rem 0;
   color: white;
@@ -50,7 +50,7 @@ textarea{
     z-index:-1;
     opacity:0;
     transition:opacity linear 0.15s;
-    background-color: #B2DBBF;
+    background-color: #247BA0;
 }
 
 ul {
@@ -93,5 +93,5 @@ a {
 }
 
 a:hover {
-  color: #247BA0;
+  color: #CBD6CE;
 }
