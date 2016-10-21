@@ -14,13 +14,13 @@
     <ul>
       <li class='navbar__liitem'><a href="../index.html">HOME</a></li>
       <li class='navbar__liitem'><a href="about.html">ABOUT</a></li>
-      <li id="author-menu" class='navbar__liitem'>
+      <li id="author-menu" class='navbar__liitem' role="menu">
         <a >AUTHOR</a>
         <ul class='dropdown'>
-          <li class='subnavbar__liitem'><a href='cleo-profile.html'>CLEO</a></li>
-          <li class='subnavbar__liitem'><a href='esraa-profile.html'>ESRAA</a></li>
-          <li class='subnavbar__liitem'><a href='jen-profile.html'>JEN</a></li>
-          <li class='subnavbar__liitem'><a href='john-profile.html'>JOHN</a></li>
+          <li class='subnavbar__liitem' role="menuitem"><a href='cleo-profile.html'>CLEO</a></li>
+          <li class='subnavbar__liitem' role="menuitem"><a href='esraa-profile.html'>ESRAA</a></li>
+          <li class='subnavbar__liitem' role="menuitem"><a href='jen-profile.html'>JEN</a></li>
+          <li class='subnavbar__liitem' role="menuitem"><a href='john-profile.html'>JOHN</a></li>
         </ul>
       </li>
       <li class='navbar__liitem'><a href='contact.html'>CONTACT</a></li>
@@ -35,10 +35,16 @@
   <article class="about-page">
     <form action="https://formspree.io/coolcomputerclub666@gmail.com"
       method="POST">
-    <input placeholder='name' type="text" name="name">
-    <input placeholder='your email address'type="email" name="_replyto"><br>
-    <textarea class='maininput' placeholder='your message' type='text' name='message'></textarea>
-    <input type="submit" value="Send">
+    <label for='name'>Name:</label>
+    <input id='name' type="text" name="name">
+
+    <label for='email'>Your email address:</label>
+    <input id='email'type="email" name="_replyto"><br>
+
+    <label for="your message">Your message:</label>
+    <textarea class='maininput' id='your message' type='text' name='message'></textarea>
+
+    <input type="submit" value="Send"><button>Submit</button>
 </form>
   </article>
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200" rel="stylesheet">
