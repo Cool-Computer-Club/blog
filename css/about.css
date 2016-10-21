@@ -1,5 +1,5 @@
 body {
-  font-family: 'Source Sans Pro', arial;
+  font-family:'Source Sans Pro', arial, sans-serif;
   font-weight: bold;
   text-align: center;
 }
@@ -20,7 +20,6 @@ body {
   opacity:1;
 }
 
-
 .dropdown {
     position: absolute;
     z-index:-1;
@@ -28,7 +27,6 @@ body {
     transition:opacity linear 0.15s;
     background-color: #B2DBBF
 }
-
 
 ul {
   text-align: center;
@@ -43,6 +41,7 @@ ul {
   display: inline-block;
   padding: 0px 1%;
 }
+
 .subnavbar__liitem {
   padding: 10px 10px;
 }
@@ -50,8 +49,8 @@ ul {
 /*
   This is where the navbar stuff ends
 */
-h1 {
-  font-family: 'Source Sans Pro', sans-serif;
+
+.header {
   font-size: 3.5rem;
 }
 
@@ -75,10 +74,6 @@ a:hover {
 .about-para {
   font-size: 25px;
   line-height: 36px;
-}
-
-h1 {
-  font-family: 'Source Sans Pro', sans-serif;
 }
 
 p {
