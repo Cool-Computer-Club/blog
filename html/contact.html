@@ -35,10 +35,16 @@
   <article class="about-page">
     <form action="https://formspree.io/coolcomputerclub666@gmail.com"
       method="POST">
-    <input placeholder='name' type="text" name="name">
-    <input placeholder='your email address'type="email" name="_replyto"><br>
-    <textarea class='maininput' placeholder='your message' type='text' name='message'></textarea>
-    <input type="submit" value="Send">
+    <label for='name'>Name:</label>
+    <input id='name' type="text" name="name">
+
+    <label for='email'>Your email address</label>
+    <input id='email'type="email" name="_replyto"><br>
+
+    <label for="your message">Your message</label>
+    <textarea class='maininput' id='your message' type='text' name='message'></textarea>
+
+    <input type="submit" value="Send"><button>Submit</button>
 </form>
   </article>
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200" rel="stylesheet">
